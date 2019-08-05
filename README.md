@@ -1,6 +1,6 @@
 # Line Follower Robot
 
-**Hardware Challenge #0 of AI for Robotics**
+**Hardware Challenge #0 of AI for Robotics**</br>
 Acquire Some Hardware and Describe It
 
 I bought all the electronic parts necessary to build a line-follower robot:
@@ -29,7 +29,7 @@ Video Demonstration:
 ![Hardware Challenge 1](images/hardware-challenge-1.png)
 https://youtu.be/YxFP9dMudcE
 
-**Hardware Challenge #2 of AI for Robotics**
+**Hardware Challenge #2 of AI for Robotics**</br>
 Make a Robot Drive in a Controlled Way
 
 In this project, I ensure that all the connections and pins of the "L298N dual H-bridge DC motor driver board" are correctly configured and programmed from the Arduino board. So that, the robot can move forwards, move backwards, turn in both directions, brake, and modulate its speed at will, as shown in the video. 
@@ -44,7 +44,7 @@ Video Demonstration:
 ![Hardware Challenge 2](images/hardware-challenge-2.png)
 https://youtu.be/lya-ddb5DFg
 
-**Hardware Challenge #3 of AI for Robotics**
+**Hardware Challenge #3 of AI for Robotics**</br>
 P-Controller for a Line-Follower Robot
 
 The previous Hardware Challenges explained the electronic parts bought (Hardware Challenge #0), how the robot sees the black line and the white floor (Hardware Challenge #1), and how the robot moves in a coherent way according to Arduino commands (Hardware Challenge #2). These are the prerequisites to explain how to build a P-controller for a line-follower robot.
