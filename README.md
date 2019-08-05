@@ -1,5 +1,4 @@
-# line-follower-robot
-Line Follower Robot
+# Line Follower Robot
 
 **Hardware Challenge #0 of AI for Robotics**
 Acquire Some Hardware and Describe It
