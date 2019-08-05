@@ -20,7 +20,7 @@ I bought all the electronic parts necessary to build a line-follower robot:
 
 ![Hardware Challenge 0](images/hardware-challenge-0.jpg)
 
-**Hardware Challenge #1 of AI for Robotics**
+**Hardware Challenge #1 of AI for Robotics**</br>
 Sense the Environment in Some Way
 
 By using 5 TCRT5000 infrared tubs, I sense the presence of black lines and white floor below the line-follower robot. Each TCRT5000 module has its own electronic circuit, for a total of 5 TCRT5000 e-circuits. Each TCRT5000 e-circuit has a resistor, a LED, a TCRT5000 module, and 3 cable connections: Ground, +5V, and the signal sent to the LED and to the analog inputs of Arduino. The TCRT5000 signal has input voltages between 0 and 5 volts and is mapped into integer values between 0 and 1023, by using the Arduino function analogRead(). In practice, a black line is transduced into an integer value of 400 and white floor is transduced into an integer value of 20, approximately. The sensitivity of each TCRT5000 module can be adjusted by using a small screwdriver to tune the regulator. These integer values of transduction reflect the proportional voltages shown in the LEDs. So, a black line turns the LEDs on and the white floor turns the LEDs off, as shown in the video. The 5 TCRT5000 e-circuits are only the perceptual part of the line-follower robot. In the Hardware Challenge #3, I will explain how these integer values of transduction will be used to produce intelligent behavior, to make the robot follow the black line.
