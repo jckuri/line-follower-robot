@@ -18,6 +18,7 @@ I bought all the electronic parts necessary to build a line-follower robot:
 * 3 batteries
 * 1 USB cable for Arduino
 * Cables, screws and bolts
+
 ![Hardware Challenge 0](images/hardware-challenge-0.jpg)
 
 **Hardware Challenge #1 of AI for Robotics**
